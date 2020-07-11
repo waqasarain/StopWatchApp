@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop Watch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: darkgrey">
+
+	<h1>Stop Watch</h1>
+
+
+
+	<div class="wrap">
+		<div class="row" id="counter" >
+	
+			<button class="btn" id="min" >0</button>
+			<button class="btn" style="color: #00ff97;font-size: 32px;">:</button>
+			<button class="btn" id="sec" >0</button>
+			<button class="btn" style="color: #00ff97;font-size: 32px;">:</button>
+			<button class="btn" id="msec" >0</button>
+		
+		</div>
+
+		<div class="row">
+				
+			<button type="button"  class="btn-left" onclick="start()" id="myBtn">Start</button>
+			<button type="button"  id="btn-center" onclick="pause()">Pause</button>
+			<button type="button"  id="btn-right" onclick="reset()">Reset</button>
+			</div>
+			
+		</div>
+
+
+	</div>
+
+	<p>Digital Clock Using JavaScript</p>
+
+<script type="text/javascript" src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
